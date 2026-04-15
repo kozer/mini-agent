@@ -1,0 +1,21 @@
+{
+  "name": "mini-agent",
+  "private": true,
+  "author": "Antony Agrios <antonyagrios@gmail.com>",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.69",
+    "@ai-sdk/openai-compatible": "^2.0.41",
+    "ai": "^6.0.161",
+    "ink": "^7.0.0",
+    "ink-spinner": "^5.0.0",
+    "react": "^19.2.5",
+    "zod": "^4.3.6"
+  }
+}
