@@ -891,7 +891,7 @@ function buildSystemPrompt(
   const teamIndex     = teamAgents.length  ? teamAgents.map(fmtAgent).join("\n") : "  (none)";
 
   return `\
-You are a high-autonomy CLI agent running on Arch Linux (Bun runtime).
+You are a high-autonomy CLI agent.
 
 ## Sandbox
 Every command runs inside a bubblewrap (bwrap) OS-level sandbox:
