@@ -15,17 +15,46 @@ Optional, depending on which model/provider you use:
 - `GITHUB_TOKEN` for GitHub Copilot models
 - A local OpenAI-compatible server if using `lmstudio` or `llama-cli`
 
-To install dependencies:
+## Local Development
+
+Install dependencies:
 
 ```bash
 bun install
 ```
 
-To run:
+Run the interactive CLI:
 
 ```bash
-bun run 
+bun run cli.tsx
 ```
+
+Or:
+
+```bash
+bun run dev
+```
+
+## Global Install
+
+Install this project as a global Bun CLI:
+
+```bash
+bun pm pack
+bun install -g "$PWD/mini-agent-0.1.0.tgz"
+```
+
+Then run it as:
+
+```bash
+mage
+```
+
+## Notes
+
+- `mage` currently launches the interactive UI
+- Add Bun's global bin dir to your `PATH` if needed: `export PATH="$HOME/.cache/.bun/bin:$PATH"`
+- `bwrap` sandboxing is Linux-focused; macOS would need a different sandbox strategy or fallback
 
 This project was created using `bun init` in bun v1.3.9. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
 

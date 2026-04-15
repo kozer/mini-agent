@@ -1,7 +1,15 @@
 {
   "name": "mini-agent",
-  "private": true,
+  "version": "0.1.0",
+  "description": "A Bun-powered local CLI agent with an interactive Ink UI.",
   "author": "Antony Agrios <antonyagrios@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "mage": "./cli.tsx"
+  },
+  "scripts": {
+    "dev": "bun run cli.tsx"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react": "^19.2.14"

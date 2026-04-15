@@ -1,3 +1,5 @@
+#!/usr/bin/env bun
+
 import React, { useState, useRef, useCallback, useEffect, useMemo } from "react";
 import { render, Text, Box, useInput, useApp, useStdout } from "ink";
 import process from "node:process";

@@ -16,3 +16,4 @@ agent_state.json
 # Temp files
 *.log
 *.tmp
+*.tgz
